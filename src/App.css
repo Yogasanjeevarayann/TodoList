@@ -1,0 +1,96 @@
+.App {
+    display: flex;
+    background-color: rgb(176, 31, 254);
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px 15px  ;
+    width: 70%;
+    margin: 10px auto;
+    font-family: sans-serif;
+  }
+
+  .App h1 {
+    color:rgb(41, 2, 54);
+  }
+
+  body {
+    margin: 0;
+    padding:0;
+  }
+  
+  .addTask {
+  
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.addTask button {
+    width: auto;
+    height: 3rem;
+    margin-left: 5px;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+  }
+
+input{
+    width: 90%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .list{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: rgb(208, 147, 248);
+    border-radius: 0 0 15px 15px;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+  }
+  
+  .task{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+    margin: 15px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .task button {
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+  }
+  .task .button1 {
+    width:auto;
+    height: 2rem;
+  }
+  .task .button2 {
+    width:2rem;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    font-weight: bolder;
+  }
+  .task h1{
+    padding-left: 0.8rem;
+    font-size: min(30px,5vw);
+    color: white;
+  }
+  .buttongrp{
+    display: flex;
+    align-items: flex-end;
+  
+  }
